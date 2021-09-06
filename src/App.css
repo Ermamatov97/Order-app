@@ -1,0 +1,60 @@
+.app-wrapper {
+    height: 100vh;
+}
+
+.logo-box {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C00A27;
+    border-bottom: 0.5px solid #d9d9d9;
+}
+
+.logo-text {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #fff;
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: #C00A27;
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+.menu-box:hover
+.menu-text {
+    color: #fff;
+}
+
+.menu-icon {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.menu-text {
+    color: #d9d9d9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.body {
+    width: 100%;
+    /* background-color: violet; */
+    padding: 30px 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
